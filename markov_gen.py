@@ -3,7 +3,7 @@ import random
 
 class MarkovGenerate(object):
     """
-    Response for constructing the kth order Markov chain.
+    Responsible for constructing the kth order Markov chain.
     """
 
     def _form_graph(self, words, order):
